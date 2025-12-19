@@ -529,9 +529,9 @@ def process_collection(collection_input, api_key, position=0):
 # Add your target collections here (URL or ID)
 TARGET_COLLECTIONS = [
     "https://civitai.com/collections/14197464",
-    "https://civitai.com/collections/14071141",
-    "https://civitai.com/collections/13957041",
-    "https://civitai.com/collections/13973116"
+    #"https://civitai.com/collections/14071141",
+    #"https://civitai.com/collections/13957041",
+    #"https://civitai.com/collections/13973116"
     # "12345"
 ]
 
@@ -548,7 +548,7 @@ def main():
     
     api_key = args.key
     if not api_key:
-        api_key = "b7b831368931d9cb453d89a6a2401198"
+        api_key = "38099a6de2b076f6b879dd08e233be6b"#"b7b831368931d9cb453d89a6a2401198"
     
     collections = args.collections
     if not collections:
