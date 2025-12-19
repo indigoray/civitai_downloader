@@ -1,0 +1,11 @@
+downloads/
+downloads_2025-0401_1210/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+*.log
+debug_*.py
+test_*.py
+check_*.py
+dump_*.py
